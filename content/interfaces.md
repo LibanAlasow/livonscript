@@ -1,9 +1,9 @@
 ---
+icon: terminal
 description: >-
   With interfaces, you can execute prompts with series of questions using
   buttons, select menus, modals and more in a single ephemeral command to gather
   as much information you wish from the user.
-icon: terminal
 ---
 
 # Interfaces
@@ -19,10 +19,4 @@ The user runs the command `/anyCommand` and the prompt will begin as an ephemera
 ```
 
 #### <mark style="color:purple;">The prompt questions available are the following.</mark>
-
-| JS Class (new)     | Data arguments             | Description                                         |
-| ------------------ | -------------------------- | --------------------------------------------------- |
-| StringSelectMenu() | placeholder, options       | Give the user options to choose from                |
-| Modal()            | title, rows                | Prompt the user with a list of text based questions |
-| BiButtons()        | each button with its value | Gives the user two options to choose from           |
 
